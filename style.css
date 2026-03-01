@@ -70,3 +70,14 @@ img {
   border-radius: 50%;
   margin-top: 1em;
 }
+
+a {
+  color: blue;
+  transition: color 0.2s;
+}
+
+a.active {
+  color: purple;
+  font-weight: bold;
+}
+
