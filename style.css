@@ -7,13 +7,13 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 1fr 1fr;
   margin-top: 3em;
 }
 
 h1 {
   font-size: 3em;
-  letter-spacing: 0.45em;
+  letter-spacing: 0.11em;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -28,6 +28,11 @@ b {
 }
 
 header {
+  display: grid;
+  grid-template-areas: "nom . photo ";
+  gap: 3px;
+  grid-template-columns: minmax(300px, 1.5fr) minmax(100px, 0.5fr);
+  grid-template-rows: auto auto;
   text-align: center;
   margin: auto 2em;
 }
