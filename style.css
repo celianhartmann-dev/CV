@@ -81,3 +81,11 @@ a.active {
   font-weight: bold;
 }
 
+#Pdroite p{
+  font-size: 12px;
+}
+
+#Pdroite li{
+  font-size: 12px;
+  margin-top: 0.5em;
+}
